@@ -174,7 +174,7 @@ const projects = () => {
                 summary={
                   "A feature rich MovieInfo  Screener App using React, Taillwind CSS and others"
                 }
-                link={"/"}
+                link={"https://movieinfowebapp.netlify.app/"}
                 github={"/"}
                 type={"Featured Project"}
               />
