@@ -11,6 +11,9 @@ import project3 from "../../public/images/projects/gamestore.jpg";
 import project4 from "../../public/images/projects/movieinfo.jpg";
 import project5 from "../../public/images/projects/travelapp.jpg";
 import project6 from "../../public/images/projects/oldportfolio.jpg";
+import project7 from "../../public/images/projects/projectmanagement.jpg";
+import project8 from "../../public/images/projects/dashboard.jpg";
+import project9 from "../../public/images/projects/tourbook.jpg";
 import { motion } from "framer-motion";
 
 
@@ -148,25 +151,31 @@ const projects = () => {
                 github={"/"}
                 type={"Featured Project"}
               />
+
             </div>
+
+
             <div className="col-span-6 sm:col-span-12 ">
               <Project
-                title={"NFT Collection Website in ReactJs"}
-                img={project2}
-                link={"https://nftcollectionbyaditya.netlify.app/"}
+                title={"Task Manager Website in ReactJs"}
+                img={project7}
+                link={"https://taskmanagerreactj.netlify.app/"}
                 github={"/"}
                 type={"Featured Project"}
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+
+
+            <div className="col-span-6 sm:col-span-12 ">
               <Project
-                title={"Game Store Website in ReactJs"}
-                img={project3}
-                link={"https://gamestoreaditya.netlify.app/"}
+                title={"Dashboard Website in ReactJs"}
+                img={project8}
+                link={"https://reactjdashboard.netlify.app/contacts"}
                 github={"/"}
                 type={"Featured Project"}
               />
             </div>
+
             <div className="col-span-12">
               <FeaturedProject
                 title={"MovieInfo Application"}
@@ -179,15 +188,74 @@ const projects = () => {
                 type={"Featured Project"}
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+
+
+            <div className="col-span-6 sm:col-span-12 ">
               <Project
+                title={"Tour Booking Website in ReactJs"}
+                img={project9}
+                link={"https://book1-xi.vercel.app/home"}
+                github={"/"}
+                type={"Featured Project"}
+              />
+            </div>
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div className="col-span-6 sm:col-span-12 ">
+              <Project
+                title={"NFT Collection Website in ReactJs"}
+                img={project2}
+                link={"https://nftcollectionbyaditya.netlify.app/"}
+                github={"/"}
+                type={"Featured Project"}
+              />
+            </div>
+
+
+            <div className="col-span-12">
+              <FeaturedProject
                 title={"Travel Application"}
                 img={project5}
+                summary={
+                  "A feature rich Travel Website using React, Taillwind CSS and others"
+                }
                 link={"https://travelapp7.netlify.app/"}
                 github={"/"}
                 type={"Featured Project"}
               />
             </div>
+
+
+
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title={"Game Store Website in ReactJs"}
+                img={project3}
+                link={"https://gamestoreaditya.netlify.app/"}
+                github={"/"}
+                type={"Featured Project"}
+              />
+            </div>
+       
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title={"Old React Portfolio -you will find my some old projects here"}
