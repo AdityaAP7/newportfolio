@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
 import LiIcon from "@/components/LiIcon";
 
-const Details = ({ position, company, companyLink, time, address, work }) => {
+const Details = ({ position, company, companyLink, time, address, work,work1,work2,work3,work4,work5 }) => {
   const ref = useRef(null);
   return (
     <li
@@ -29,6 +29,11 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
           {time} | {address}
         </span>
         <p className="font-medium w-full md:text-sm">{work}</p>
+              <p className="font-medium w-full md:text-sm">{work1}</p>
+              <p className="font-medium w-full md:text-sm">{work2}</p>
+              <p className="font-medium w-full md:text-sm">{work3}</p>
+              <p className="font-medium w-full md:text-sm">{work4}</p>
+              <p className="font-medium w-full md:text-sm">{work5}</p>
       </motion.div>
     </li>
   );
@@ -61,8 +66,22 @@ const Experience = () => {
             time={"Feb 2023-present"}
             address={"India"}
             work={
-              "- Developed and maintained a product price comparison website using the MERN stack."
-              
+              "- Redesigned multiple UI components, enhancing the overall aesthetics and visual appeal of the website."
+            }
+                 work1={
+              "- I led the effort to migrate the website from ReactJS to Nextjs migration resulting in 50% page load."
+            }
+                      work2={
+              "- Introduced a feedback form toggle for seamless user engagement, Implemented using ReactJS and NodeJS"
+            }
+                           work3={
+              "- designed and implemented a user registration and login system using JWT and the wishlist feature using ReactJS and NodeJS (Express)"
+            }
+                                work4={
+              "- designed and implemented a user registration and login system using JWT and the wishlist feature using ReactJS and NodeJS (Express)"
+            }
+                                     work5={
+              "- designed and implemented a user registration and login system using JWT and the wishlist feature using ReactJS and NodeJS (Express)"
             }
 
           />
