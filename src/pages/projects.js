@@ -148,7 +148,7 @@ const projects = () => {
                   "A feature rich Crypto Screener App using React, Taillwind CSS and others"
                 }
                 link={"https://cryptoscreeneraditya.netlify.app/"}
-                github={"/"}
+                github={"https://github.com/AdityaAP7/cryptoscreener"}
                 type={"Featured Project"}
               />
 
