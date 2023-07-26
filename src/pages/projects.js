@@ -170,7 +170,7 @@ const projects = () => {
               <Project
                 title={"Dashboard Website in ReactJs"}
                 img={project8}
-                link={"https://reactjdashboard.netlify.app/contacts"}
+                link={"https://reactjdashboard.netlify.app/"}
                 github={"/"}
                 type={"Featured Project"}
               />
