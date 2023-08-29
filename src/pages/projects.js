@@ -203,7 +203,7 @@ const projects = () => {
 
 
        //adding new projects
-                  project
+   
          
               
             
