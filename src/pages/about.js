@@ -1,14 +1,4 @@
-onValue]);
 
-  }, [isInView, valueuseEffect(() => {
-    if (isInView) {
-      motionValue.set(value);
-    }
-  }, [isInView, value, motionValue]);
-, motionValue]);
-e)useEffect(() => {
-    if (isInView) {
-      motionValue.set(value);
     }
   }, [isInView, value, motionValue]);
 ;import { View, Text, ScrollView, TouchableOpacity, Image, Dimensions } from 'react-native'
