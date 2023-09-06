@@ -1,16 +1,4 @@
-
-        </ScrollView>
-
-    </View>
-  )
-}
-import { fallbackPersonImage, image185, image342 } from '../api/moviedb';
-var {width, height} = Dimensions.get('window');
-
-export default function Cast({cast, navigation}) {
-  return (
-    <View className="my-6">
-        <Text className="text-white text-lg mx-4 mb-5">Top Cast</Text>
+xt>
         <ScrollView 
             horizontal
             showsHorizontalScrollIndicator={false}
