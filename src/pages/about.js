@@ -5,7 +5,12 @@ useEffect(() => {
       motionValue.set(value);
     }useEffect(() => {
     if (isInView) {
+      motionValue.set(value);useEffect(() => {
+    if (isInView) {
       motionValue.set(value);
+    }
+  }, [isInView, value, motionValue]);
+
     }
   }, [isInView, value, motionValue]);
 
