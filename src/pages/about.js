@@ -1,15 +1,4 @@
-xt>
-        <ScrollView 
-            horizontal
-            showsHorizontalScrollIndicator={false}
-            contentContainerStyle={{paddingHorizontal: 15}}
-        >
-            {
-                cast && cast.map((person, index)=>{
-                    return (
-                        <TouchableOpacity 
-                            key={index} 
-                            onPress={()=> navigation.navigate('Person', person)} 
+
                             className="mr-4 items-center">
                             <View 
                                 className="overflow-hidden rounded-full h-20 w-20 items-center border border-neutral-500">
