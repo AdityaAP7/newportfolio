@@ -1,17 +1,4 @@
 
-        >
-            {
-                cast && cast.map((person, index)=>{
-         \)} 
-                                    source={{uri: image185(person?.profile_path) || fallbackPersonImage}} 
-                                />
-                            </View>
-                            
-                            <Text className="text-white text-xs mt-1">
-                                {
-                                    person?.character.length>10? person.character.slice(0,10)+'...' : person?.character
-                                }
-                            </Text>
                             <Text className="text-neutral-400 text-xs">
                                 {
                                     person?.original_name.length>10? person.original_name.slice(0,10)+'...' : person?.original_name
