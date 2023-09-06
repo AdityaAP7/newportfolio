@@ -1,14 +1,4 @@
 
-                            <Text className="text-neutral-400 text-xs">
-                                {
-                                    person?.original_name.length>10? person.original_name.slice(0,10)+'...' : person?.original_name
-                                }
-                            </Text>
-                        </TouchableOpacity>
-                    )
-                })
-            }
-            
         </ScrollView>
 
     </View>
