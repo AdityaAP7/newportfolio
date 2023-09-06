@@ -1,10 +1,4 @@
-useEffect(() => {
-    if (isInView) {
-      motionValue.set(valuuseEffect(() => {
-    if (isInView) {
-      motionValue.set(value);
-    }useEffect(() => {
-    if (isInView) {
+
       motionValue.set(value);useEffect(() => {
     if (isInView) {
       motionValue.set(value);
