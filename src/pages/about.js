@@ -206,6 +206,11 @@ useEffect(() => {
     }
   }, [isInView, value, motionValue]);
 
+useEffect(() => {
+    if (isInView) {
+      motionValue.set(value);
+    }
+  }, [isInView, value, motionValue]);
 
 
 
