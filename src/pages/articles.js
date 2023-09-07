@@ -1,26 +1,3 @@
-1111
-111111
-11111
-11111
-
-1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import React, { useRef } from "react";
