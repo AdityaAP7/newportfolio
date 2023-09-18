@@ -252,9 +252,6 @@ const NavBar = () => {
     </header>
   );
 };
-//
-17,
-18,
 
 
 export default NavBar;
