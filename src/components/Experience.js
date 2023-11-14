@@ -60,7 +60,7 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2 ">
           <Details
-            position={"Web Developer Intern"}
+            position={"Web and Mobile Developer Intern"}
             company={"Artyvis Technologies Pvt Ltd."}
             companyLink={"https://artyvis.ai/"}
             time={"Feb 2023-present"}
