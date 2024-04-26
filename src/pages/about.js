@@ -22,12 +22,6 @@ const AnimatedNumbers = ({ value }) => {
     }
   }, [isInView, value, motionValue]);
 
-    useEffect(() => {
-    if (isInView) {
-      motionValue.set(value);
-    }
-  }, [isInView, value, motionValue]);
-
   useEffect(() => {
     springValue.on("change", (latest) => {
       if (ref.current && latest.toFixed(0) <= value) {
