@@ -1,4 +1,38 @@
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+1
+1
+1
+1
+1
+1
+1
+1
+1
 
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
 import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import Head from "next/head";
