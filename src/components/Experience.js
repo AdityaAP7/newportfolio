@@ -59,29 +59,35 @@ const Experience = () => {
         />
              <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2 ">
           <Details
-            position={"Web and Mobile Developer Intern"}
-            company={"Artyvis Technologies Pvt Ltd."}
-            companyLink={"https://artyvis.ai/"}
-            time={"Feb 2023-present"}
-            address={"India"}
+            position={"Software Developer"}
+            company={"Kstudio solutions pvt ltd"}
+            companyLink={"https://kalyanistudio.com/"}
+            time={"Nov 2023 - Present"}
+            address={"Pune, India"}
             work={
-              "- Redesigned multiple UI components, enhancing the overall aesthetics and visual appeal of the website."
+              "- Designed and developed 2 React Native mobile apps and 3 React websites independently"
             }
                  work1={
-              "- I led the effort to migrate the website from ReactJS to Nextjs migration resulting in 50% page load."
+              "- Sole front-end developer responsible for all projects"
             }
                       work2={
-              "- Introduced a feedback form toggle for seamless user engagement, Implemented using ReactJS and NodeJS"
+              "- Worked on 'https://gativan.in/' website and the Gativan app, available on the Play Store - a platform for bike and car repair and maintenance."
             }
                            work3={
-              "- designed and implemented a user registration and login system using JWT and the wishlist feature using ReactJS and NodeJS (Express)"
+              "- Created Kalyani SCADA website, an analytics platform featuring graphs, tables, and product information, developed from scratch for Kalyani Forge."
             }
                                 work4={
-              "- designed and implemented a user registration and login system using JWT and the wishlist feature using ReactJS and NodeJS (Express)"
+              "- Developed React Native apps with functionalities such as OTP auto verification, Google Maps, Razorpay integration, Firebase notifications, Axios, Async-storage and Wati integration"
             }
                                      work5={
-              "- designed and implemented a user registration and login system using JWT and the wishlist feature using ReactJS and NodeJS (Express)"
+              "- Leveraged packages such as React Router, Razorpay, Wati, Axios and Redux in React projects."
+            }                                  work6={
+              "- Utilized Redux for state management"
             }
+                                              }                                  work7={
+              "- Demonstrated comprehensive skills in UI/UX design, development, and implementation across diverse projects"
+            }
+
 
           />
         </ul>
@@ -91,7 +97,7 @@ const Experience = () => {
             position={"Web and Mobile Developer Intern"}
             company={"Artyvis Technologies Pvt Ltd."}
             companyLink={"https://artyvis.ai/"}
-            time={"Feb 2023-present"}
+            time={"Feb 2023 - Oct 2024"}
             address={"India"}
             work={
               "- Redesigned multiple UI components, enhancing the overall aesthetics and visual appeal of the website."
