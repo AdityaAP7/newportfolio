@@ -57,6 +57,34 @@ const Experience = () => {
           style={{ scaleY: scrollYProgress }}
           className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]"
         />
+             <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2 ">
+          <Details
+            position={"Web and Mobile Developer Intern"}
+            company={"Artyvis Technologies Pvt Ltd."}
+            companyLink={"https://artyvis.ai/"}
+            time={"Feb 2023-present"}
+            address={"India"}
+            work={
+              "- Redesigned multiple UI components, enhancing the overall aesthetics and visual appeal of the website."
+            }
+                 work1={
+              "- I led the effort to migrate the website from ReactJS to Nextjs migration resulting in 50% page load."
+            }
+                      work2={
+              "- Introduced a feedback form toggle for seamless user engagement, Implemented using ReactJS and NodeJS"
+            }
+                           work3={
+              "- designed and implemented a user registration and login system using JWT and the wishlist feature using ReactJS and NodeJS (Express)"
+            }
+                                work4={
+              "- designed and implemented a user registration and login system using JWT and the wishlist feature using ReactJS and NodeJS (Express)"
+            }
+                                     work5={
+              "- designed and implemented a user registration and login system using JWT and the wishlist feature using ReactJS and NodeJS (Express)"
+            }
+
+          />
+        </ul>
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2 ">
           <Details
