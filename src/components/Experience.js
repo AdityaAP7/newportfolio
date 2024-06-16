@@ -63,6 +63,7 @@ const Experience = () => {
             company={"Kstudio solutions pvt ltd"}
             companyLink={"https://kalyanistudio.com/"}
             time={"Nov 2023 - Present"}
+
             address={"Pune, India"}
             work={
               "- Designed and developed 2 React Native mobile apps and 3 React websites independently"
