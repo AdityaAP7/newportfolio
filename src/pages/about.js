@@ -55,7 +55,7 @@ const about = () => {
               <p className="font-medium">
                 Hi, I'm Aditya Palodkar, a web developer and UI/UX designer with a
                 passion for creating beautiful, functional, and user-centered
-                digital experiences. With 5 months of experience in the field. I
+                digital experiences. With 1.4 months of experience in the field. I
                 am always looking for new and innovative ways to bring my
                 clients' visions to life.
               </p>
